@@ -11,7 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import logo from '\src\assets\react.svg'
+
 
 const pages = ['Exercise', 'Food', 'Blogs'];
 const settings = ['Profile', 'Logout'];
@@ -36,8 +36,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="absolute" sx={{ backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}>
-      <Container maxWidth="xl">
+    <AppBar sx={{ backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',color:'orange' }}>
         <Toolbar>
           <Typography
             variant="h6"
@@ -128,6 +127,7 @@ function Navbar() {
                   width: 'fit-content',
                   '&:hover': {
                     backgroundColor: 'transparent',
+                    color:'blue',
                   },
                 }}
               >
@@ -166,7 +166,6 @@ function Navbar() {
             </Menu>
           </Box>
         </Toolbar>
-      </Container>
     </AppBar>
   );
 }

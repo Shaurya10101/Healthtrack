@@ -22,7 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# versioning and configuration files
-package-lock.json
-package.json
