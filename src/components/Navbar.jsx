@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import logo from '\src\assets\react.svg'
 
 const pages = ['Exercise', 'Food', 'Blogs'];
 const settings = ['Profile', 'Logout'];
